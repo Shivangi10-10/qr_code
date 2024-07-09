@@ -21,7 +21,7 @@ Generate fully functional real time qr codes by based on the text or link pasted
 
 ### Deployment
 
-**For Deployment, we have used Vercel as a platform.**
+**For Deployment, we have used Github Pages as a platform.**
 
 **A deployed version can be checked here: [https://shivangi10-10.github.io/qr_code/]((https://shivangi10-10.github.io/qr_code/))**
 
@@ -32,7 +32,8 @@ Generate fully functional real time qr codes by based on the text or link pasted
    ```sh
    git clone https://github.com/Shivangi10-10/qr_code.git
    ```
-
+2. **Run this project**
+   Just run the index.html file 
 
 ### Future Scope
 
