@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="form-group">
+            <label for="qrText">Enter Text/URL:</label>
+            <br>
+            <input type="text" id="qrText" placeholder="Enter text or URL here">
+            <button id="generateBtn">Generate QR Code</button>
+        </div>
+        <div id="qrCodeContainer">
+            <p>No image</p>
+        </div>
+        <div id="iconContainer" class="hidden">
+            <button id="downloadBtn">
+                <img src="downloads.png" alt="Download" />
+            </button>
+            
+            <button id="shareBtn">
+                <img src="share.png" alt="Share" />
+            </button>
+            <button id="styleBtn">
+                <img src="style.png" alt="Style" />
+            </button>
+        </div>
+        <input type="color" id="colorPicker" class="hidden" />
+    </div>
+    <footer>
+        &copy; Shivangi Suyash
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
